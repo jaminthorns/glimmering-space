@@ -1,3 +1,6 @@
+import "css/app.css"
+import "css/reset.css"
+
 // If you want to use Phoenix channels, run `mix help phx.gen.channel`
 // to get started and then uncomment the line below.
 // import "./user_socket.js"
@@ -57,7 +60,7 @@ import "phoenix_html"
 //     // Enable server log streaming to client.
 //     // Disable with reloader.disableServerLogs()
 //     reloader.enableServerLogs()
-// 
+//
 //     // Open configured PLUG_EDITOR at file:line of the clicked element's HEEx component
 //     //
 //     //   * click with "c" key pressed to open at caller location
@@ -76,7 +79,7 @@ import "phoenix_html"
 //         reloader.openEditorAtDef(e.target)
 //       }
 //     }, true)
-// 
+//
 //     window.liveReloader = reloader
 //   })
 // }
