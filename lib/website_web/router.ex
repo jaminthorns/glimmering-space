@@ -18,10 +18,7 @@ defmodule WebsiteWeb.Router do
     pipe_through :browser
 
     get "/", PageController, :home
+    get "/wither", PageController, :wither
+    get "/dissolve", PageController, :dissolve
   end
-
-  # Other scopes may use custom stacks.
-  # scope "/api", WebsiteWeb do
-  #   pipe_through :api
-  # end
 end
